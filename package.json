@@ -8,8 +8,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
-    
+    "e2e": "ng e2e",
+    "ngh":"ng build --prod --base-href \"https://ahmed-jabr.github.io/ng5/\"",
+    "git":"git add . | git commit -m \"auto commit\" | git push origin master"
+
   },
   "private": true,
   "dependencies": {
