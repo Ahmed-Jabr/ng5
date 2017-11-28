@@ -44,6 +44,7 @@ export class HomeComponent implements OnInit {
     this.itemCount=this.goals.length;
   }
   addItem(){
+    if (!(this.goalText.length>=3)) return;
     this.goals.push(this.goalText);
     this.goalText='';
     this.itemCount=this.goals.length;
